@@ -70,4 +70,4 @@ bash run_tb2.sh
 
 Everything is under training folder
 
-Please refer to `training/tbench_areal_workflow/README.md` for setting up.
+Please refer to [Training Setup](training/tbench_areal_workflow/README.md) for detailed instructions.
