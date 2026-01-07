@@ -1,17 +1,21 @@
-# 🤓 Terminal-Agent-RL: Terminal Agent evaluation and training based on CAMEL
+# ROSETTA — RObust, Scalable Terminal Tooling & Agent training
+
+**Resilient toolkits and scalable RL pipelines for CAMEL terminal agents**
 
 
-Note: new TerminalToolkit design document [Terminal Toolkit Design](docs/terminal_toolkit_design.md)
+----
+
 
 ## Getting Started 🎯
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/camel-ai/CAMEL-Terminal-Agent.git
-cd CAMEL-Terminal-Agent
+git clone https://github.com/camel-ai/rosetta.git
+cd rosetta
 bash setup.sh
 ```
+
 
 ### Run task by task
 ```bash
@@ -71,3 +75,5 @@ bash run_tb2.sh
 Everything is under training folder
 
 Please refer to [Training Setup](training/tbench_areal_workflow/README.md) for detailed instructions.
+
+***Note***: new TerminalToolkit design document [Terminal Toolkit Design](docs/terminal_toolkit_design.md)
