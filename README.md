@@ -1,7 +1,9 @@
-# ROSETTA — RObust, Scalable Terminal Tooling & Agent training
+# SETA: Scaling Environments for Terminal Agents
 
-**Resilient toolkits and scalable RL pipelines for CAMEL terminal agents**
 
+![SETA](assets/TerminalAgent.jpg)
+
+***Designing resilient toolkits and scalable RL environments for CAMEL terminal agents***
 
 ----
 
