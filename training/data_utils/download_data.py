@@ -42,7 +42,7 @@ def _download_github_folder(repo_url, sparse_path, target_dir, branch="main", te
 
 
 def download_synth_data():
-    url = "https://github.com/camel-ai/TerminalAgentRL-Dataset.git"
+    url = "https://github.com/camel-ai/seta-env.git"
     target_dir = DATASET_DIR / "synth_data"
     _download_github_folder(url, "Dataset", target_dir, branch="main", temp_suffix="synth")
     
