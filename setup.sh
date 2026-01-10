@@ -9,8 +9,8 @@ bash Miniforge3-$(uname)-$(uname -m).sh -b
 # initialize conda
 source ~/miniforge3/bin/activate
 conda init
-conda create -n terminal_agent python=3.12 -y
-conda activate terminal_agent
+conda create -n seta python=3.12 -y
+conda activate seta
 pip install uv
 # 2. install dependencies
 # if nvcc is not found, install cuda toolkit

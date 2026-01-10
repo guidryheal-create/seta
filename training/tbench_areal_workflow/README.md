@@ -6,9 +6,8 @@ This is the folder for training & evaluation of terminal agent using `AReal` fra
 
 ### 1. Installation of necessary packages
 ```
-git clone https://github.com/camel-ai/terminal_agent.git
-cd terminal_agent
-git checkout rllm
+git clone https://github.com/camel-ai/seta.git
+cd seta
 git submodule update --init --recursive
 bash setup.sh
 ```
@@ -17,7 +16,7 @@ bash setup.sh
 
   1. Raw dataset location and folder structure
 
-      dataset should be located under `terminal_agent/dataset` folder
+      dataset should be located under `seta/dataset` folder
 
       - Folder structure
 
@@ -185,7 +184,7 @@ STDERR:  client Pulling
  Network 924-0a06b61b9dae4814b28d4ab98a5bf130-areal-run_default  Error
 failed to create network 924-0a06b61b9dae4814b28d4ab98a5bf130-areal-run_default: Error response from daemon: all predefined address pools have been fully subnetted
 
-Error during agent execution: Command '['docker', 'compose', '-p', '924-0a06b61b9dae4814b28d4ab98a5bf130-areal-run', '-f', '/home/ubuntu/terminal_agent/dataset/terminal-bench-datasets/datasets/usaco/924/docker-compose.yaml', 'up', '-d']' returned non-zero exit status 1.
+Error during agent execution: Command '['docker', 'compose', '-p', '924-0a06b61b9dae4814b28d4ab98a5bf130-areal-run', '-f', '/home/ubuntu/seta/dataset/terminal-bench-datasets/datasets/usaco/924/docker-compose.yaml', 'up', '-d']' returned non-zero exit status 1.
 
 ```
 
