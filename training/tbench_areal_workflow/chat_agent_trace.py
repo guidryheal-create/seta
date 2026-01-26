@@ -353,7 +353,7 @@ class ChatAgentTrace(ChatAgent):
                 async with atrace_session_phase("generate"):
                     response = await self._aget_model_response(
                         openai_messages,
-                        num_tokens=num_tokens,
+                        # num_tokens=num_tokens,
                         current_iteration=iteration_count,
                         response_format=response_format,
                         tool_schemas=[]
