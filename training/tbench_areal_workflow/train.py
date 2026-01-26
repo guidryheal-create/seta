@@ -72,7 +72,7 @@ import json
 import atexit
 
 # --- relavive import
-from docker_cleanup import start_docker_cleanup, stop_docker_cleanup
+# from docker_cleanup import start_docker_cleanup, stop_docker_cleanup
 from chat_agent_trace import ChatAgentTrace
 from pre_build_tasks_utils import build_docker_image
 
