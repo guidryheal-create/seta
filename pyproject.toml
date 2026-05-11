@@ -1,0 +1,35 @@
+[project]
+name = "seta"
+version = "0.1.0"
+description = "Seta monorepo (AReaL + Gemma + vLLM + RL stack)"
+requires-python = ">=3.12,<=3.15"
+dependencies = [
+    "camel-ai",
+    "terminal-bench",
+]
+
+[build-system]
+requires = ["setuptools>=65.5", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+    "assets*",
+    "dataset*",
+    "training*",
+    "external*",
+    "evaluation*"
+]
+exclude = [
+    "docs*",
+    "tests*"
+]
+
+[tool.uv]
+resolution = "highest"
+prerelease = "allow"  # Allow pre-releases to resolve conflicts
+
+[tool.uv.sources]
+# Install AReaL directly from Git release instead of workspace
+areal = { git = "https://github.com/inclusionAI/AReaL.git", tag = "v1.0.4"}
